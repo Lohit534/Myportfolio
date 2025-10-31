@@ -36,7 +36,7 @@ const dispro = [
     ],
     Github: "https://github.com/your-github-repo",
     Img: "/food.png",
-    // "Link": "https://your-live-demo-link.com",
+    Link: "https://foodie-del-frontend.onrender.com/",
     TechStack: ["MongoDB", "expressJS", "ReactJS", "NodeJS", "Javascript"],
     Title: "Food Delivery Website",
   },
