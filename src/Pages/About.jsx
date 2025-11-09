@@ -148,7 +148,7 @@ const AboutPage = () => {
     {
       icon: Award,
       color: "from-[#a855f7] to-[#6366f1]",
-      value: 9,
+      value: 11,
       label: "Certificates",
       description: "Professional skills validated",
       animation: "fade-up",
@@ -204,7 +204,7 @@ const AboutPage = () => {
             </p>
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
               <a
-                href="https://drive.google.com/file/d/1jj-TIBJ50QAkdCxA7tUN-m2it274rozZ/view?usp=drivesdk" //upload resume
+                href="https://drive.google.com/file/d/1sz5hu-UsQEytDDUneJg5Gr0lbzoTsbXc/view?usp=drive_link" //upload resume
                 download
                 className="w-full lg:w-auto"
               >

@@ -58,6 +58,12 @@ const discer = [
   {
     Img: "mern.jpg",
   },
+  {
+    Img: "hackersql.png",
+  },
+  {
+    Img: "hackerpy.png",
+  },
 ];
 
 const dispro = [
