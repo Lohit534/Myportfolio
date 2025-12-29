@@ -16,12 +16,12 @@ import {
 } from "lucide-react";
 import Swal from "sweetalert2";
 
-// JSON data
-const dispro = [
+// JSON data - All projects combined
+const allProjects = [
   {
     id: "Food delivery website",
     Description:
-      "A responsive MERN stack food delivery website where users can browse restaurants, view menus, add items to cart, and place orders. It’s designed to simulate real-world food delivery platforms with a smooth user experience.",
+      "A responsive MERN stack food delivery website where users can browse restaurants, view menus, add items to cart, and place orders. It's designed to simulate real-world food delivery platforms with a smooth user experience.",
     Features: [
       "Browse restaurants and food items",
       "Add items to cart and checkout",
@@ -40,13 +40,10 @@ const dispro = [
     TechStack: ["MongoDB", "expressJS", "ReactJS", "NodeJS", "Javascript"],
     Title: "Food Delivery Website",
   },
-];
-
-const medi = [
   {
     id: "MiniMedi-AI Chatbot",
     Description:
-      "A responsive MERN stack food delivery website where users can browse restaurants, view menus, add items to cart, and place orders. It’s designed to simulate real-world food delivery platforms with a smooth user experience.",
+      "A full-stack AI-powered medical consultation chatbot that provides health-related guidance using OpenAI integration. Features user authentication, session management, and a clean responsive interface.",
     Features: [
       "Chatbot interface for medical consultation",
       "Integration with OpenAI for AI-powered responses",
@@ -54,7 +51,7 @@ const medi = [
       "Responsive design for mobile and desktop",
       "Built using full stack (Django, React, Node.js)",
       "Secure routing and protected pages",
-      "Real-time order status updates",
+      "Real-time chat updates",
       "Search and filter functionality",
       "Clean UI/UX with modular components",
     ],
@@ -116,7 +113,7 @@ const ProjectDetails = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    const selectedProject = dispro.find((p) => String(p.id) === id);
+    const selectedProject = allProjects.find((p) => String(p.id) === id);
 
     if (selectedProject) {
       setProject(selectedProject);

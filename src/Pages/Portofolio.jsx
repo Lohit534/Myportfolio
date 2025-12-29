@@ -70,7 +70,7 @@ const dispro = [
   {
     id: "Food delivery website",
     Description:
-      "A responsive MERN stack food delivery website where users can browse restaurants, view menus, add items to cart, and place orders. It’s designed to simulate real-world food delivery platforms with a smooth user experience.",
+      "A responsive MERN stack food delivery website where users can browse restaurants, view menus, add items to cart, and place orders. It's designed to simulate real-world food delivery platforms with a smooth user experience.",
     Features: [
       "Browse restaurants and food items",
       "Add items to cart and checkout",
@@ -88,6 +88,27 @@ const dispro = [
     // "Link": "https://your-live-demo-link.com",
     TechStack: ["MongoDB", "expressJS", "ReactJS", "NodeJS", "Javascript"],
     Title: "Food Delivery Website",
+  },
+  {
+    id: "MiniMedi-AI Chatbot",
+    Description:
+      "A full-stack AI-powered medical consultation chatbot that provides health-related guidance using OpenAI integration. Features user authentication, session management, and a clean responsive interface.",
+    Features: [
+      "Chatbot interface for medical consultation",
+      "Integration with OpenAI for AI-powered responses",
+      "User authentication and session management",
+      "Responsive design for mobile and desktop",
+      "Built using full stack (Django, React, Node.js)",
+      "Secure routing and protected pages",
+      "Real-time chat updates",
+      "Search and filter functionality",
+      "Clean UI/UX with modular components",
+    ],
+    Github: "https://github.com/your-github-repo",
+    Img: "minimedi.png",
+    Link: "https://minimedi-ai.vercel.app/",
+    TechStack: ["Django", "Groqapi", "ReactJS", "NodeJS", "Postgresql"],
+    Title: "MiniMedi-AI Chatbot",
   },
 ];
 
