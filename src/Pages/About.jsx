@@ -140,7 +140,7 @@ const AboutPage = () => {
     {
       icon: Code,
       color: "from-[#6366f1] to-[#a855f7]",
-      value: 1,
+      value: 2,
       label: "Total Projects",
       description: "Innovative web solutions crafted",
       animation: "fade-right",

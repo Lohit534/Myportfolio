@@ -42,6 +42,30 @@ const dispro = [
   },
 ];
 
+const medi = [
+  {
+    id: "MiniMedi-AI Chatbot",
+    Description:
+      "A responsive MERN stack food delivery website where users can browse restaurants, view menus, add items to cart, and place orders. It’s designed to simulate real-world food delivery platforms with a smooth user experience.",
+    Features: [
+      "Chatbot interface for medical consultation",
+      "Integration with OpenAI for AI-powered responses",
+      "User authentication and session management",
+      "Responsive design for mobile and desktop",
+      "Built using full stack (Django, React, Node.js)",
+      "Secure routing and protected pages",
+      "Real-time order status updates",
+      "Search and filter functionality",
+      "Clean UI/UX with modular components",
+    ],
+    Github: "https://github.com/your-github-repo",
+    Img: "/minimedi.png",
+    Link: "https://minimedi-ai.vercel.app/",
+    TechStack: ["Django", "Groqapi", "ReactJS", "NodeJS", "Postgresql"],
+    Title: "MiniMedi-AI Chatbot",
+  },
+];
+
 const TECH_ICONS = {
   React: Globe,
   Tailwind: Layout,
