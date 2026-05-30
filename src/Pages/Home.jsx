@@ -36,7 +36,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+          Full Stack
         </span>
       </span>
       <br />
@@ -95,7 +95,7 @@ const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Iam A Btech Student", "Tech Enthusiast"];
-const TECH_STACK = ["Python", "HTML", "CSS", "Javascript", "React"];
+const TECH_STACK = ["Python", "Java", "HTML", "CSS", "Javascript", "React"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/Lohit534" },
   {
@@ -220,7 +220,7 @@ const Home = () => {
                   data-aos="fade-up"
                   data-aos-delay="1000"
                 >
-                  AI & Full-Stack Developer | Python,JavaScript, Sql | AI, Web
+                  Full Stack Developer | Java, Python, JavaScript, SQL | AI, Web
                   Dev | Built Food Delivery Website | DSA with Python{" "}
                 </p>
 

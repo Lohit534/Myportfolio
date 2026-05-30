@@ -140,7 +140,7 @@ const AboutPage = () => {
     {
       icon: Code,
       color: "from-[#6366f1] to-[#a855f7]",
-      value: 2,
+      value: 3,
       label: "Total Projects",
       description: "Innovative web solutions crafted",
       animation: "fade-right",
@@ -193,12 +193,12 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              I'm Lohit, a passionate and dedicated Frontend Developer with a
+              I'm Lohit, a passionate and dedicated Full Stack Developer with a
               strong foundation in modern web technologies. I specialize in
               building responsive, scalable, and visually appealing web
-              applications using React, JavaScript, and CSS. With a creative
+              applications using React, Java, Python, JavaScript, and Node.js. With a creative
               mindset and a keen eye for detail, I strive to deliver
-              user-friendly interfaces that enhance user experience. I’m
+              user-friendly interfaces and robust backend systems. I'm
               continuously exploring new tools and frameworks to stay updated
               with the latest trends in web development and improve my skillset.
             </p>

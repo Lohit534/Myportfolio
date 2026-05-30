@@ -61,6 +61,26 @@ const allProjects = [
     TechStack: ["Django", "Groqapi", "ReactJS", "NodeJS", "Postgresql"],
     Title: "MiniMedi-AI Chatbot",
   },
+  {
+    id: "Lohverse Student Assessment",
+    Description:
+      "A full-stack student assessment platform for Lohverse recruitment drives. Students can access assigned tests, take secure proctored exams, and track results — all in one place. Features include Java assessments, Data Structures quizzes, and Full Stack Web Development evaluations.",
+    Features: [
+      "Secure proctored examination system",
+      "Student registration and authentication",
+      "Multiple assessment categories (Java, DSA, Web Dev)",
+      "Real-time test tracking and scheduling",
+      "Easy submission and instant results",
+      "Responsive design for all devices",
+      "Admin panel for test management",
+      "Clean and intuitive user interface",
+    ],
+    Github: "Private",
+    Img: "/Lohverseportal.png",
+    Link: "https://lohverse-student-assessment.vercel.app/",
+    TechStack: ["ReactJS", "NodeJS", "MongoDB", "expressJS", "Javascript"],
+    Title: "Lohverse Student Assessment Portal",
+  },
 ];
 
 const TECH_ICONS = {
